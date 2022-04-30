@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  border: 1px black;
+  padding: 15px;
+  float: left;
+  width: 30%;
+  position: fixed;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+#main-doc {
+  border: 10px black;
+  padding: 15px;
+  float: left;
+  width: 70%;
+  margin-left: 300px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 300px) {
+  main {
+    font-size: 40px;
+  }
+}
